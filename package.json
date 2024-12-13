@@ -1,0 +1,18 @@
+{
+  "name": "homework49",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon --exec node board.js",
+    "build": "tsc",
+    "board": "npm run build && node board"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "nodemon": "^3.1.7",
+    "typescript": "^5.7.2"
+  }
+}
